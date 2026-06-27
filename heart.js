@@ -6,7 +6,7 @@ const camera = new THREE.PerspectiveCamera(
   0.1,
   1000
 );
-//or z = 400 for bif one
+//or z = 400 for big one
 camera.position.z = 500;
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
